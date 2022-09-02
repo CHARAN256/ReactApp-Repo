@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-     <Route  path='/' element={< Formcomponent />}></Route>
-     <Route  path='/grid' element={< Gridcomponent />}></Route>
+     <Route  path='/ReactApp-Repo' element={< Formcomponent />}></Route>
+     <Route  path='/ReactApp-Repo/grid' element={< Gridcomponent />}></Route>
      </Routes>
     </BrowserRouter>
   )
