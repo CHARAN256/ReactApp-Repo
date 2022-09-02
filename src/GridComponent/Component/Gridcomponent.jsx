@@ -155,10 +155,10 @@ function Gridcomponent()
                 <td className="table-value">{val.Gender}</td>
                 <td className="table-value">{val.Nationality}</td>
                 <td id="deletetag" className="table-value">
-                <BsFillPencilFill onClick={() => { GridDetailsSize = 5; navigate('/?mode=edit&ID=' + val._id)}} className="action-icons" />
+                <BsFillPencilFill onClick={() => { GridDetailsSize = 5; navigate('/ReactApp-Repo?mode=edit&ID=' + val._id)}} className="action-icons" />
                 <BsFillTrashFill onClick={() => { updateModalState(true) 
                     selectedDetailDelete = val._id} } className="action-icons" />
-                <BsEyeFill onClick={() => { GridDetailsSize = 5; navigate('/?mode=view&ID=' + val._id)}} className="action-icons" />
+                <BsEyeFill onClick={() => { GridDetailsSize = 5; navigate('/ReactApp-Repo?mode=view&ID=' + val._id)}} className="action-icons" />
                 </td></tr>
             )
         }) : null
