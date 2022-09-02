@@ -200,7 +200,7 @@ return(
     </div>
 
     <div className='form-right'>
-    <button onClick={() => navigate('ReactApp-Repo/grid')} className='grid-class'>View Student Details</button>
+    <button onClick={() => navigate('/ReactApp-Repo/grid')} className='grid-class'>View Student Details</button>
       <div className='input-section left-input'>
       <label className='label-class'>{label.LastNamelabel}</label>
       <input value={UserInputValues.LastName} disabled={pagemode == 'view'?true:false} id="last-name"
