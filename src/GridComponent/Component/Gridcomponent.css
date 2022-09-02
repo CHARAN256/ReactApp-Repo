@@ -1,0 +1,175 @@
+.container-table
+{
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+}
+
+.container-grid
+{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.table-row
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.button-classes
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+.button-less
+{
+    width: 11%;
+    margin-right: 5%;
+    padding: 0.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.button-less:hover{
+    transition: .5s ease-in-out;
+    background-color: #5a0909;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+.button-more
+{
+    width: 11%;
+    margin-right: 5%;
+    padding: 0.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.button-more:hover{
+    transition: .5s ease-in-out;
+    background-color: #5a0909;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+.table-head
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.table-value
+{
+    border: 1px solid;
+    word-break: break-word;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    vertical-align: top;
+    margin-top: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arrow {
+    cursor: pointer;
+    margin-left: 4%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+ .action-icons{
+    cursor: pointer;
+    margin-left: 4%;
+    margin-right: 4%;
+ }
+
+ .modal-popup
+ {
+    position: absolute;
+    border: 2px solid #000;
+    background-color: gray;
+    height:80px;
+    width: 240px;
+    margin: auto
+ }
+
+ .popup-head
+ {
+    margin-top: 11%;
+    float: right;
+    margin-right: 31%;
+ }
+
+ .popup-message
+ {
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+ }
+
+ .popup-confirm
+ {
+    margin-right: 20px;
+    border: none;
+    background-color: #5a0909;
+    color: white;
+ }
+
+ .popup-confirm:hover{
+    transition: .5s ease-in-out;
+    background-color: #5a0909;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+ .popup-cancel
+ {
+    border: 1px solid #5a0909;
+    color: #5a0909;
+ }
+
+ .popup-cancel:hover{
+    transition: .5s ease-in-out;
+    border: 1px solid #5a0909;
+    color: #5a0909;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+[role='tooltip'].popup-content
+{
+    left: 44% !important;
+    width: 50% !important;
+    top: 5px !important;
+    background-color: #d3d3d3 !important;
+}
+
+.popup-section
+{
+    margin-top: 10px;
+}
+
+.popup-arrow 
+{
+    display: none;
+}

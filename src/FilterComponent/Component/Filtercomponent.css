@@ -1,0 +1,162 @@
+.filter-class
+{
+    float: right;
+    margin-bottom: 2%;
+    border: 1px solid;
+    width: 3%;
+    height: 29px;
+    margin-top: 2%;
+    text-align: center;
+    margin-right: 0%;
+    cursor: pointer;   
+}
+
+.popup-container
+{
+    width: 95%;
+    margin-left: 5%;
+}
+
+.popup-right
+{
+    width: 50%;
+    float: right;
+}
+
+.popup-label
+{
+    width: 35%;
+    float: left;
+}
+
+.popup-label-col
+{
+    margin-top: 14px;
+}
+
+.popup-input
+{
+    width: 48%;
+    float: right;
+    margin-right: 17%;
+    margin-top: 6px;
+}
+
+.popup-input-col
+{
+    width: 100%;
+    margin-top: 10px;
+    border: 0px;
+}
+
+.popup-left
+{
+    width: 50%;
+    float: left;
+}
+
+.popup-input-col-datepicker
+{
+    width: 146px;
+    margin-left: -21px;
+    margin-top: 12px;
+    border: none;
+}
+
+.popup-input-col:focus , .popup-input-col-datepicker:focus
+{
+transform: scale(1.15);
+transition: 1s;
+}
+
+.select-input
+{
+    width: 100%;
+    margin-top: 10px;
+    border: 0px;
+}
+
+.filter-top
+{
+    margin-top: 28px;
+}
+
+.filter-bottom
+{
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 23px;
+}
+
+
+.filter-reset
+{
+    border: 1px;
+    width: 40%;
+}
+
+.filter-reset:hover{
+    transition: .5s ease-in-out;
+    background-color: #5a0909;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+.filter-apply
+{
+    border: 1px;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.filter-apply:hover{
+    transition: .5s ease-in-out;
+    background-color: #5a0909;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+input:focus
+{
+    outline: none;  
+}
+
+.age-class
+{
+    width: 100%;
+    height: 36px;
+}
+
+.age-left
+{
+    float: left;
+    width: 85%;
+    margin-right: 5% ;
+}
+
+.age-right
+{
+    float: right;
+    width: 7%;
+    margin-left: 3%;
+    margin-top: 7px;
+}
+
+.new-details
+{
+    width: 20%;
+    margin-left: 74%;
+    border: none;
+    margin-top: 2%;
+}
+
+.new-details:hover{
+    transition: .5s ease-in-out;
+    background-color: #5a0909;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
